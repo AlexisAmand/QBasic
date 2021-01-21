@@ -1,7 +1,9 @@
+' Tableau de N elements
+
 N = 10
 DIM TABLO(N) AS INTEGER
 
-' On remplit le tableau avec des valeurs aleatoires
+' Pour la demo, on met des valeurs aleatoires dans le tableau
 
 FOR X = 1 TO N
     RANDOMIZE TIMER
@@ -10,13 +12,13 @@ NEXT X
 
 ' On affiche le tableau d'origine
 
-PRINT "Tableau : "
+PRINT "Tableau avant le tri : "
 
 FOR X = 1 TO N
     PRINT TABLO(X)
 NEXT X
 
-' On fait le tri
+' On fait le tri tournoi
 
 FOR I = 1 TO N - 1
     FOR J = I + 1 TO N
@@ -26,7 +28,7 @@ NEXT I
 
 ' On affiche le tableau final
 
-PRINT "Tableau final : "
+PRINT "Tableau avec le tri : "
 
 FOR X = 1 TO N
     PRINT TABLO(X)
@@ -39,5 +41,7 @@ SUB perm (A AS INTEGER, B AS INTEGER)
     B = A
     A = TEMP
 END SUB
+
+
 
 
