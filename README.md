@@ -5,6 +5,7 @@ Just a few Basic (and QBasic) listings.
 ### List of Algorithms
 
 - Numerus Romanus : Convert Roman numerals to Arabic numerals.
+- Factorielle : Helps you to calculate a factorial with a function and some recursivity.
 - Tris : Some sorting algorithms
 - PGCD : Find the GCD (PGCD in french) of two numbers.
 - PPCM : Find the LCM (PPCM in french) of two numbers.
