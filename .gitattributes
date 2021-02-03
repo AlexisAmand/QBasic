@@ -1,2 +1,0 @@
-# .gitattributes file which reclassifies `.js` files as Java:
-*.bas linguist-language=QBasic
